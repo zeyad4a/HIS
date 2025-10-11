@@ -1,6 +1,18 @@
-Zeyad Yasser
-Abdelrahman Gamal
-Amnaa Mohamed
-Nada Taha
-Aya Shaban
-Almoatasem Ali
+Zeyad Yasser -> Team Leader (Full-Stack)
+Abdelrahman Gamal -> (Back-End)
+Amnaa Mohamed -> (Back-End)
+Nada Taha -> (Front-End)
+Aya Shaban -> (Front-End)
+Almoatasem Ali -> (Front-End)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Front
+--------------
+HTML         |
+Tailwind CSS |
+JavaScript   |
+--------------
+Back
+---------------------------
+PHP -> (Laravel Optional) |
+SQL                       |
+---------------------------
