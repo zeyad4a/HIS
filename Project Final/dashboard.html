@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard ECHO</title>
+
+  <!-- ✅ Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- ✅ Navbar -->
+  <nav class="bg-gray-800 text-white px-6 py-3 flex flex-wrap items-center justify-between">
+    <div class="flex items-center space-x-14">
+      <!-- 🔹 Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="echol.png" alt="Logo" class="h-10 w-10">
+      </div>
+
+      <!-- 🔹 Navbar Links -->
+      <ul class="flex flex-wrap items-center space-x-10 text-sm font-medium">
+        <li><a href="#" class="bg-gray-700 px-3 py-1 rounded">Dashboard</a></li>
+        <li><a href="#" class="hover:text-gray-300">Reservations</a></li>
+        <li><a href="#" class="hover:text-gray-300">Payments</a></li>
+        <li><a href="#" class="hover:text-gray-300">Users</a></li>
+        <li><a href="#" class="hover:text-gray-300">Medical Record</a></li>
+        <li><a href="#" class="hover:text-gray-300">Add New User</a></li>
+        <li><a href="#" class="hover:text-gray-300">Add New Doctor</a></li>
+        <li><a href="#" class="hover:text-gray-300">Add Specialization</a></li>
+        <li><a href="#" class="hover:text-gray-300">Doctors Time Table</a></li>
+      </ul>
+    </div>
+
+    <a href="#" class="font-medium hover:text-gray-300 ml-12">Log Out</a>
+  </nav>
+
+  <!-- ✅ Main Content -->
+  <div class="p-7">
+    <h1 class="text-2xl font-bold mb-6">Dashboard</h1>
+
+    <!-- ✅ Cards Grid -->
+    <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="TodayReservation.png" alt="Today Reservations" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Today Reservations</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 2 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="ActiveReservation.png" alt="Active Reservations" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Active Reservations</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 3 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="CanceledReservation.png" alt="Canceled Reservations" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Canceled Reservations</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 4 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="ActiveDoctors.png" alt="Active Doctors" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Active Doctors</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 5 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="NotActiveDoctors.png" alt="Not Active Doctors" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Not Active Doctors</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 6 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="DoneReservation.png" alt="Done Reservations" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Done Reservations</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 0 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="ActiveEmploy.png" alt="Active Employ" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Active Employ</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 2 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="NotActiveEmploy.png" alt="Not Active Employ" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Not Active Employ</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 3 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="TotalPayments.png" alt="Total Payments" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Total Payments</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 1 ]</p>
+      </div>
+
+      <div class="bg-gray-200 text-center p-6 rounded shadow hover:shadow-lg transition">
+        <img src="TotalReservation.png" alt="Total Reservations" class="mx-auto w-16 h-16 mb-3 object-contain">
+        <h2 class="font-semibold text-gray-800 text-base">Total Reservations</h2>
+        <p class="text-2xl font-extrabold mt-2 text-gray-900">[ 10 ]</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
